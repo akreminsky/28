@@ -29,4 +29,4 @@ def ConquestCampaign(N: int, M: int, L: int, battalion: List[int]):
         return L
     return ConquestCampaign(N, M, L+1, result)
 
-print(ConquestCampaign(7, 7, 0, [1, 1, 6, 6]))
+print(ConquestCampaign(15, 15, 0, [1, 1, 6, 6]))
